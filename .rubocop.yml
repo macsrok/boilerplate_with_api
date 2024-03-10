@@ -1,0 +1,26 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'config/**/*'
+    - '**/bin/*'
+    - '**/*.yml'
+    - '**/db/**/*'
+    - '**/bin/**/*'
+    - '**/tmp/**/*'
+    - '**/vendor/**/*'
+    - '**/log/**/*'
+    - '**/script/**/*'
+    - '**/.pryrc'
+    - '**/config.ru'
+    - '**/Gemfile'
+    - '**/Guardfile'
+    - '**/*.gemspec'
+    - '**/Rakefile'
+    - '**/templates/**/*.rb'
+    - '**/bundle/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
